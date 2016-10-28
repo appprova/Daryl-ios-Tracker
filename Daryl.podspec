@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "Daryl"
   s.version      = "0.0.1"
-  s.summary      = ""
+  s.summary      = "Use multiple analytics and other trackers in your Application easily"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  Daryl allow you to use multiple analytics trackers (like Crashlytics, Google Analytics, Firebase and etc) with a single common interface
                    DESC
 
   s.homepage     = "https://github.com/appprova/Daryl-ios-Tracker"
@@ -38,8 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,24 +90,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Daryl", "Classes/**/*.{h,m,swift}"
+  s.source_files  = "Daryl", "Daryl/**/*.{h,m,swift}"
 
   # s.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -133,27 +118,26 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  subspec 'CrashLytics' do |sp|
-    cs.dependency 'Fabric'
-    cs.dependency 'Crashlytics'    
+  s.subspec 'CrashLytics' do |sp|
+    sp.dependency 'Fabric'
+    sp.dependency 'Crashlytics'    
     sp.source_files = 'Crashlytics'
   end
 
-  subspec 'Firebase' do |sp|
-    cs.dependency 'Firebase/Core'
+  s.subspec 'Firebase' do |sp|
+    sp.dependency 'Firebase/Core'
     sp.source_files = 'Firebase'
   end
 
-  subspec 'GoogleAnalytics' do |sp|
-    cs.dependency 'Google/Analytics'
+  s.subspec 'GoogleAnalytics' do |sp|
+    sp.dependency 'Google/Analytics'
     sp.source_files = 'GoogleAnalytics'
   end
 
-  subspec 'Dito' do |sp|
-    s.preserve_paths      = 'Dito/Dito.framework'
-    s.public_header_files = 'Dito/Dito.framework/Versions/A/Headers/*.h'
-    s.resource            = 'Dito/Dito.framework/Versions/A/Resources/KFData.bundle'
-    s.vendored_frameworks = 'Dito/Dito.framework'
-	sp.source_files = 'Dito'
+  s.subspec 'Dito' do |sp|
+    sp.preserve_paths      = 'Dito/DitoSDK.framework'
+    sp.public_header_files = 'Dito/DitoSDK.framework/Versions/A/Headers/*.h'
+    sp.vendored_frameworks = 'Dito/DitoSDK.framework'
+    sp.source_files  = "Dito", "Dito/**/*.{h,m,swift}"
   end
 end
