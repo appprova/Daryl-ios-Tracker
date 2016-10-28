@@ -1,0 +1,6 @@
+framework module Pods_DarylDito {
+  umbrella header "Pods-DarylDito-umbrella.h"
+
+  export *
+  module * { export * }
+}

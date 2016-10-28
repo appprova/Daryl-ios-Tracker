@@ -1,0 +1,1226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352FF7C8E26CA22F8F4C1168 /* Pods_DarylGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F280B3B23A8A8790F3EA0176 /* Pods_DarylGoogleAnalytics.framework */; };
+		9CE71764DE18C2ADF73B3548 /* Pods_DarylTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043819D2E64E6873B76249C2 /* Pods_DarylTests.framework */; };
+		A0F1CA0D1DC3BA9100991F48 /* Daryl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F1CA031DC3BA9100991F48 /* Daryl.framework */; };
+		A0F1CA121DC3BA9100991F48 /* DarylTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA111DC3BA9100991F48 /* DarylTests.swift */; };
+		A0F1CA141DC3BA9100991F48 /* Daryl.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F1CA061DC3BA9100991F48 /* Daryl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F1CA211DC3BB0300991F48 /* Pods_Daryl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */; };
+		A0F1CA231DC3BB0300991F48 /* Daryl.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F1CA061DC3BA9100991F48 /* Daryl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F1CA2F1DC3BB1700991F48 /* Pods_Daryl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */; };
+		A0F1CA311DC3BB1700991F48 /* Daryl.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F1CA061DC3BA9100991F48 /* Daryl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F1CA3D1DC3BB2400991F48 /* Pods_Daryl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */; };
+		A0F1CA3F1DC3BB2400991F48 /* Daryl.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F1CA061DC3BA9100991F48 /* Daryl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F1CA4B1DC3BB3100991F48 /* Pods_Daryl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */; };
+		A0F1CA4D1DC3BB3100991F48 /* Daryl.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F1CA061DC3BA9100991F48 /* Daryl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F1CA561DC3BB5D00991F48 /* TrackerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA551DC3BB5D00991F48 /* TrackerAdapter.swift */; };
+		A0F1CA581DC3BB7D00991F48 /* MultipleTrackerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA571DC3BB7D00991F48 /* MultipleTrackerAdapter.swift */; };
+		A0F1CA5B1DC3BC5600991F48 /* CrashLyticsLogTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA5A1DC3BC5600991F48 /* CrashLyticsLogTracker.swift */; };
+		A0F1CA5E1DC3BE8400991F48 /* DitoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F1CA5D1DC3BE8400991F48 /* DitoSDK.framework */; };
+		A0F1CA601DC3BEDE00991F48 /* DitoTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA5F1DC3BEDE00991F48 /* DitoTracker.swift */; };
+		A0F1CA631DC3BF2700991F48 /* GoogleAnalyticsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA621DC3BF2700991F48 /* GoogleAnalyticsTracker.swift */; };
+		A0F1CA661DC3BF8A00991F48 /* FirebaseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA651DC3BF8A00991F48 /* FirebaseTracker.swift */; };
+		A5CCD9633F7C1C42F5ECBF64 /* Pods_DarylDito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3699759772C5850A4D4775 /* Pods_DarylDito.framework */; };
+		D4EB4E7FC9F2F0B3667F8688 /* Pods_Daryl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */; };
+		E94985EAF06E5A7584389E09 /* Pods_DarylCrashLytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B96DFDD355F476720CABF7 /* Pods_DarylCrashLytics.framework */; };
+		EA492FE2629704E399B90E85 /* Pods_DarylFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26039D229858E95E25F3DA41 /* Pods_DarylFirebase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0F1CA0E1DC3BA9100991F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F1C9FA1DC3BA9100991F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F1CA021DC3BA9100991F48;
+			remoteInfo = Daryl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043819D2E64E6873B76249C2 /* Pods_DarylTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarylTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B96DFDD355F476720CABF7 /* Pods_DarylCrashLytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarylCrashLytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09398C9E7132DDD5E394C648 /* Pods-DarylGoogleAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylGoogleAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarylGoogleAnalytics/Pods-DarylGoogleAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		26039D229858E95E25F3DA41 /* Pods_DarylFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarylFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daryl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5D735DE6377F12276DD0D1 /* Pods-DarylFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarylFirebase/Pods-DarylFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		32E89D2B21304BA673A4D605 /* Pods-DarylTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarylTests/Pods-DarylTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47C6AEF5DDD6148576FCC439 /* Pods-Daryl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daryl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daryl/Pods-Daryl.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2859D44719A794458E46CD /* Pods-DarylCrashLytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylCrashLytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarylCrashLytics/Pods-DarylCrashLytics.debug.xcconfig"; sourceTree = "<group>"; };
+		557B72F5EE1D258A1E3028AB /* Pods-DarylFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarylFirebase/Pods-DarylFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		5C1F265C3EBE416BFFBD9070 /* Pods-DarylDito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylDito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarylDito/Pods-DarylDito.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF28177501B4C6D57940824 /* Pods-Daryl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daryl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daryl/Pods-Daryl.release.xcconfig"; sourceTree = "<group>"; };
+		69E1A0E1A93A41FB99D3CDFE /* Pods-DarylCrashLytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylCrashLytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarylCrashLytics/Pods-DarylCrashLytics.release.xcconfig"; sourceTree = "<group>"; };
+		6B3699759772C5850A4D4775 /* Pods_DarylDito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarylDito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A1E7963711EE51B1F2ACEE /* Pods-DarylDito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylDito.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarylDito/Pods-DarylDito.release.xcconfig"; sourceTree = "<group>"; };
+		73DBAC4836C7CF36398B070B /* Pods-DarylTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarylTests/Pods-DarylTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0F1CA031DC3BA9100991F48 /* Daryl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Daryl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F1CA061DC3BA9100991F48 /* Daryl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Daryl.h; sourceTree = "<group>"; };
+		A0F1CA071DC3BA9100991F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F1CA0C1DC3BA9100991F48 /* DarylTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarylTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F1CA111DC3BA9100991F48 /* DarylTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarylTests.swift; sourceTree = "<group>"; };
+		A0F1CA131DC3BA9100991F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F1CA291DC3BB0300991F48 /* DarylCrashLytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarylCrashLytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F1CA2A1DC3BB0300991F48 /* Daryl copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Daryl copy-Info.plist"; path = "/Users/guilhermecastro/Documents/Daryl/Daryl copy-Info.plist"; sourceTree = "<absolute>"; };
+		A0F1CA371DC3BB1700991F48 /* DarylFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarylFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F1CA381DC3BB1800991F48 /* DarylCrashLytics copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DarylCrashLytics copy-Info.plist"; path = "/Users/guilhermecastro/Documents/Daryl/DarylCrashLytics copy-Info.plist"; sourceTree = "<absolute>"; };
+		A0F1CA451DC3BB2400991F48 /* DarylGoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarylGoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F1CA461DC3BB2500991F48 /* DarylFirebase copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DarylFirebase copy-Info.plist"; path = "/Users/guilhermecastro/Documents/Daryl/DarylFirebase copy-Info.plist"; sourceTree = "<absolute>"; };
+		A0F1CA531DC3BB3100991F48 /* DarylDito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarylDito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F1CA541DC3BB3100991F48 /* DarylGoogleAnalytics copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DarylGoogleAnalytics copy-Info.plist"; path = "/Users/guilhermecastro/Documents/Daryl/DarylGoogleAnalytics copy-Info.plist"; sourceTree = "<absolute>"; };
+		A0F1CA551DC3BB5D00991F48 /* TrackerAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerAdapter.swift; sourceTree = "<group>"; };
+		A0F1CA571DC3BB7D00991F48 /* MultipleTrackerAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleTrackerAdapter.swift; sourceTree = "<group>"; };
+		A0F1CA5A1DC3BC5600991F48 /* CrashLyticsLogTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CrashLyticsLogTracker.swift; path = CrashLytics/CrashLyticsLogTracker.swift; sourceTree = "<group>"; };
+		A0F1CA5D1DC3BE8400991F48 /* DitoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DitoSDK.framework; path = Dito/DitoSDK.framework; sourceTree = "<group>"; };
+		A0F1CA5F1DC3BEDE00991F48 /* DitoTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DitoTracker.swift; path = Dito/DitoTracker.swift; sourceTree = "<group>"; };
+		A0F1CA621DC3BF2700991F48 /* GoogleAnalyticsTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleAnalyticsTracker.swift; path = GoogleAnalytics/GoogleAnalyticsTracker.swift; sourceTree = "<group>"; };
+		A0F1CA651DC3BF8A00991F48 /* FirebaseTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseTracker.swift; path = Firebase/FirebaseTracker.swift; sourceTree = "<group>"; };
+		CFB1EE85866BE3DCF84235E5 /* Pods-DarylGoogleAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarylGoogleAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarylGoogleAnalytics/Pods-DarylGoogleAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+		F280B3B23A8A8790F3EA0176 /* Pods_DarylGoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarylGoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F1C9FF1DC3BA9100991F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EB4E7FC9F2F0B3667F8688 /* Pods_Daryl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA091DC3BA9100991F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA0D1DC3BA9100991F48 /* Daryl.framework in Frameworks */,
+				9CE71764DE18C2ADF73B3548 /* Pods_DarylTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA201DC3BB0300991F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA211DC3BB0300991F48 /* Pods_Daryl.framework in Frameworks */,
+				E94985EAF06E5A7584389E09 /* Pods_DarylCrashLytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA2E1DC3BB1700991F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA2F1DC3BB1700991F48 /* Pods_Daryl.framework in Frameworks */,
+				EA492FE2629704E399B90E85 /* Pods_DarylFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA3C1DC3BB2400991F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA3D1DC3BB2400991F48 /* Pods_Daryl.framework in Frameworks */,
+				352FF7C8E26CA22F8F4C1168 /* Pods_DarylGoogleAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA4A1DC3BB3100991F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA4B1DC3BB3100991F48 /* Pods_Daryl.framework in Frameworks */,
+				A0F1CA5E1DC3BE8400991F48 /* DitoSDK.framework in Frameworks */,
+				A5CCD9633F7C1C42F5ECBF64 /* Pods_DarylDito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		583F6F5634136E83E721BB0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47C6AEF5DDD6148576FCC439 /* Pods-Daryl.debug.xcconfig */,
+				5CF28177501B4C6D57940824 /* Pods-Daryl.release.xcconfig */,
+				32E89D2B21304BA673A4D605 /* Pods-DarylTests.debug.xcconfig */,
+				73DBAC4836C7CF36398B070B /* Pods-DarylTests.release.xcconfig */,
+				4C2859D44719A794458E46CD /* Pods-DarylCrashLytics.debug.xcconfig */,
+				69E1A0E1A93A41FB99D3CDFE /* Pods-DarylCrashLytics.release.xcconfig */,
+				5C1F265C3EBE416BFFBD9070 /* Pods-DarylDito.debug.xcconfig */,
+				71A1E7963711EE51B1F2ACEE /* Pods-DarylDito.release.xcconfig */,
+				2D5D735DE6377F12276DD0D1 /* Pods-DarylFirebase.debug.xcconfig */,
+				557B72F5EE1D258A1E3028AB /* Pods-DarylFirebase.release.xcconfig */,
+				09398C9E7132DDD5E394C648 /* Pods-DarylGoogleAnalytics.debug.xcconfig */,
+				CFB1EE85866BE3DCF84235E5 /* Pods-DarylGoogleAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0F1C9F91DC3BA9100991F48 = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA641DC3BF3F00991F48 /* Firebase */,
+				A0F1CA611DC3BEE500991F48 /* GoogleAnalytics */,
+				A0F1CA5C1DC3BE7700991F48 /* Dito */,
+				A0F1CA591DC3BC0100991F48 /* CrashLytics */,
+				A0F1CA051DC3BA9100991F48 /* Daryl */,
+				A0F1CA101DC3BA9100991F48 /* DarylTests */,
+				A0F1CA041DC3BA9100991F48 /* Products */,
+				583F6F5634136E83E721BB0D /* Pods */,
+				F23FE056E41EF0BC5C0CF505 /* Frameworks */,
+				A0F1CA2A1DC3BB0300991F48 /* Daryl copy-Info.plist */,
+				A0F1CA381DC3BB1800991F48 /* DarylCrashLytics copy-Info.plist */,
+				A0F1CA461DC3BB2500991F48 /* DarylFirebase copy-Info.plist */,
+				A0F1CA541DC3BB3100991F48 /* DarylGoogleAnalytics copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F1CA041DC3BA9100991F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA031DC3BA9100991F48 /* Daryl.framework */,
+				A0F1CA0C1DC3BA9100991F48 /* DarylTests.xctest */,
+				A0F1CA291DC3BB0300991F48 /* DarylCrashLytics.framework */,
+				A0F1CA371DC3BB1700991F48 /* DarylFirebase.framework */,
+				A0F1CA451DC3BB2400991F48 /* DarylGoogleAnalytics.framework */,
+				A0F1CA531DC3BB3100991F48 /* DarylDito.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F1CA051DC3BA9100991F48 /* Daryl */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA061DC3BA9100991F48 /* Daryl.h */,
+				A0F1CA071DC3BA9100991F48 /* Info.plist */,
+				A0F1CA551DC3BB5D00991F48 /* TrackerAdapter.swift */,
+				A0F1CA571DC3BB7D00991F48 /* MultipleTrackerAdapter.swift */,
+			);
+			path = Daryl;
+			sourceTree = "<group>";
+		};
+		A0F1CA101DC3BA9100991F48 /* DarylTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA111DC3BA9100991F48 /* DarylTests.swift */,
+				A0F1CA131DC3BA9100991F48 /* Info.plist */,
+			);
+			path = DarylTests;
+			sourceTree = "<group>";
+		};
+		A0F1CA591DC3BC0100991F48 /* CrashLytics */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA5A1DC3BC5600991F48 /* CrashLyticsLogTracker.swift */,
+			);
+			name = CrashLytics;
+			sourceTree = "<group>";
+		};
+		A0F1CA5C1DC3BE7700991F48 /* Dito */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA5F1DC3BEDE00991F48 /* DitoTracker.swift */,
+				A0F1CA5D1DC3BE8400991F48 /* DitoSDK.framework */,
+			);
+			name = Dito;
+			sourceTree = "<group>";
+		};
+		A0F1CA611DC3BEE500991F48 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA621DC3BF2700991F48 /* GoogleAnalyticsTracker.swift */,
+			);
+			name = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		A0F1CA641DC3BF3F00991F48 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CA651DC3BF8A00991F48 /* FirebaseTracker.swift */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		F23FE056E41EF0BC5C0CF505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC43DCCC256B355FC86AF02 /* Pods_Daryl.framework */,
+				043819D2E64E6873B76249C2 /* Pods_DarylTests.framework */,
+				08B96DFDD355F476720CABF7 /* Pods_DarylCrashLytics.framework */,
+				6B3699759772C5850A4D4775 /* Pods_DarylDito.framework */,
+				26039D229858E95E25F3DA41 /* Pods_DarylFirebase.framework */,
+				F280B3B23A8A8790F3EA0176 /* Pods_DarylGoogleAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0F1CA001DC3BA9100991F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA141DC3BA9100991F48 /* Daryl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA221DC3BB0300991F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA231DC3BB0300991F48 /* Daryl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA301DC3BB1700991F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA311DC3BB1700991F48 /* Daryl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA3E1DC3BB2400991F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA3F1DC3BB2400991F48 /* Daryl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA4C1DC3BB3100991F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA4D1DC3BB3100991F48 /* Daryl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0F1CA021DC3BA9100991F48 /* Daryl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F1CA171DC3BA9100991F48 /* Build configuration list for PBXNativeTarget "Daryl" */;
+			buildPhases = (
+				2D6E83BA2B636DFCB181EAF7 /* [CP] Check Pods Manifest.lock */,
+				A0F1C9FE1DC3BA9100991F48 /* Sources */,
+				A0F1C9FF1DC3BA9100991F48 /* Frameworks */,
+				A0F1CA001DC3BA9100991F48 /* Headers */,
+				A0F1CA011DC3BA9100991F48 /* Resources */,
+				F7FE030E659775E2C0D0FD39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daryl;
+			productName = Daryl;
+			productReference = A0F1CA031DC3BA9100991F48 /* Daryl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0F1CA0B1DC3BA9100991F48 /* DarylTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F1CA1A1DC3BA9100991F48 /* Build configuration list for PBXNativeTarget "DarylTests" */;
+			buildPhases = (
+				1F34DC800DFD843121CA437F /* [CP] Check Pods Manifest.lock */,
+				A0F1CA081DC3BA9100991F48 /* Sources */,
+				A0F1CA091DC3BA9100991F48 /* Frameworks */,
+				A0F1CA0A1DC3BA9100991F48 /* Resources */,
+				CF67907671787CCA0327D6C6 /* [CP] Embed Pods Frameworks */,
+				6B53441A0857473B2752DBA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F1CA0F1DC3BA9100991F48 /* PBXTargetDependency */,
+			);
+			name = DarylTests;
+			productName = DarylTests;
+			productReference = A0F1CA0C1DC3BA9100991F48 /* DarylTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0F1CA1D1DC3BB0300991F48 /* DarylCrashLytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F1CA261DC3BB0300991F48 /* Build configuration list for PBXNativeTarget "DarylCrashLytics" */;
+			buildPhases = (
+				A0F1CA1E1DC3BB0300991F48 /* [CP] Check Pods Manifest.lock */,
+				A0F1CA1F1DC3BB0300991F48 /* Sources */,
+				A0F1CA201DC3BB0300991F48 /* Frameworks */,
+				A0F1CA221DC3BB0300991F48 /* Headers */,
+				A0F1CA241DC3BB0300991F48 /* Resources */,
+				A0F1CA251DC3BB0300991F48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarylCrashLytics;
+			productName = Daryl;
+			productReference = A0F1CA291DC3BB0300991F48 /* DarylCrashLytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0F1CA2B1DC3BB1700991F48 /* DarylFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F1CA341DC3BB1700991F48 /* Build configuration list for PBXNativeTarget "DarylFirebase" */;
+			buildPhases = (
+				A0F1CA2C1DC3BB1700991F48 /* [CP] Check Pods Manifest.lock */,
+				A0F1CA2D1DC3BB1700991F48 /* Sources */,
+				A0F1CA2E1DC3BB1700991F48 /* Frameworks */,
+				A0F1CA301DC3BB1700991F48 /* Headers */,
+				A0F1CA321DC3BB1700991F48 /* Resources */,
+				A0F1CA331DC3BB1700991F48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarylFirebase;
+			productName = Daryl;
+			productReference = A0F1CA371DC3BB1700991F48 /* DarylFirebase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0F1CA391DC3BB2400991F48 /* DarylGoogleAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F1CA421DC3BB2400991F48 /* Build configuration list for PBXNativeTarget "DarylGoogleAnalytics" */;
+			buildPhases = (
+				A0F1CA3A1DC3BB2400991F48 /* [CP] Check Pods Manifest.lock */,
+				A0F1CA3B1DC3BB2400991F48 /* Sources */,
+				A0F1CA3C1DC3BB2400991F48 /* Frameworks */,
+				A0F1CA3E1DC3BB2400991F48 /* Headers */,
+				A0F1CA401DC3BB2400991F48 /* Resources */,
+				A0F1CA411DC3BB2400991F48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarylGoogleAnalytics;
+			productName = Daryl;
+			productReference = A0F1CA451DC3BB2400991F48 /* DarylGoogleAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0F1CA471DC3BB3100991F48 /* DarylDito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F1CA501DC3BB3100991F48 /* Build configuration list for PBXNativeTarget "DarylDito" */;
+			buildPhases = (
+				A0F1CA481DC3BB3100991F48 /* [CP] Check Pods Manifest.lock */,
+				A0F1CA491DC3BB3100991F48 /* Sources */,
+				A0F1CA4A1DC3BB3100991F48 /* Frameworks */,
+				A0F1CA4C1DC3BB3100991F48 /* Headers */,
+				A0F1CA4E1DC3BB3100991F48 /* Resources */,
+				A0F1CA4F1DC3BB3100991F48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarylDito;
+			productName = Daryl;
+			productReference = A0F1CA531DC3BB3100991F48 /* DarylDito.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F1C9FA1DC3BA9100991F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AppProva;
+				TargetAttributes = {
+					A0F1CA021DC3BA9100991F48 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NERN369JLD;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					A0F1CA0B1DC3BA9100991F48 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NERN369JLD;
+						ProvisioningStyle = Automatic;
+					};
+					A0F1CA1D1DC3BB0300991F48 = {
+						DevelopmentTeam = NERN369JLD;
+						LastSwiftMigration = 0810;
+					};
+					A0F1CA2B1DC3BB1700991F48 = {
+						DevelopmentTeam = NERN369JLD;
+						LastSwiftMigration = 0810;
+					};
+					A0F1CA391DC3BB2400991F48 = {
+						DevelopmentTeam = NERN369JLD;
+						LastSwiftMigration = 0810;
+					};
+					A0F1CA471DC3BB3100991F48 = {
+						DevelopmentTeam = NERN369JLD;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = A0F1C9FD1DC3BA9100991F48 /* Build configuration list for PBXProject "Daryl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0F1C9F91DC3BA9100991F48;
+			productRefGroup = A0F1CA041DC3BA9100991F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F1CA021DC3BA9100991F48 /* Daryl */,
+				A0F1CA0B1DC3BA9100991F48 /* DarylTests */,
+				A0F1CA1D1DC3BB0300991F48 /* DarylCrashLytics */,
+				A0F1CA2B1DC3BB1700991F48 /* DarylFirebase */,
+				A0F1CA391DC3BB2400991F48 /* DarylGoogleAnalytics */,
+				A0F1CA471DC3BB3100991F48 /* DarylDito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F1CA011DC3BA9100991F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA0A1DC3BA9100991F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA241DC3BB0300991F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA321DC3BB1700991F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA401DC3BB2400991F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA4E1DC3BB3100991F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F34DC800DFD843121CA437F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D6E83BA2B636DFCB181EAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B53441A0857473B2752DBA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarylTests/Pods-DarylTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA1E1DC3BB0300991F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA251DC3BB0300991F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarylCrashLytics/Pods-DarylCrashLytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA2C1DC3BB1700991F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA331DC3BB1700991F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarylFirebase/Pods-DarylFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA3A1DC3BB2400991F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA411DC3BB2400991F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarylGoogleAnalytics/Pods-DarylGoogleAnalytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA481DC3BB3100991F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F1CA4F1DC3BB3100991F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarylDito/Pods-DarylDito-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF67907671787CCA0327D6C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarylTests/Pods-DarylTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FE030E659775E2C0D0FD39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daryl/Pods-Daryl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F1C9FE1DC3BA9100991F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA581DC3BB7D00991F48 /* MultipleTrackerAdapter.swift in Sources */,
+				A0F1CA561DC3BB5D00991F48 /* TrackerAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA081DC3BA9100991F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA121DC3BA9100991F48 /* DarylTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA1F1DC3BB0300991F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA5B1DC3BC5600991F48 /* CrashLyticsLogTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA2D1DC3BB1700991F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA661DC3BF8A00991F48 /* FirebaseTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA3B1DC3BB2400991F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA631DC3BF2700991F48 /* GoogleAnalyticsTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F1CA491DC3BB3100991F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F1CA601DC3BEDE00991F48 /* DitoTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0F1CA0F1DC3BA9100991F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F1CA021DC3BA9100991F48 /* Daryl */;
+			targetProxy = A0F1CA0E1DC3BA9100991F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0F1CA151DC3BA9100991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0F1CA161DC3BA9100991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0F1CA181DC3BA9100991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C6AEF5DDD6148576FCC439 /* Pods-Daryl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Daryl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0F1CA191DC3BA9100991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF28177501B4C6D57940824 /* Pods-Daryl.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Daryl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0F1CA1B1DC3BA9100991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E89D2B21304BA673A4D605 /* Pods-DarylTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = NERN369JLD;
+				INFOPLIST_FILE = DarylTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.DarylTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0F1CA1C1DC3BA9100991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DBAC4836C7CF36398B070B /* Pods-DarylTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = NERN369JLD;
+				INFOPLIST_FILE = DarylTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.DarylTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0F1CA271DC3BB0300991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2859D44719A794458E46CD /* Pods-DarylCrashLytics.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Daryl copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0F1CA281DC3BB0300991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E1A0E1A93A41FB99D3CDFE /* Pods-DarylCrashLytics.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Daryl copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0F1CA351DC3BB1700991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5D735DE6377F12276DD0D1 /* Pods-DarylFirebase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DarylCrashLytics copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0F1CA361DC3BB1700991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557B72F5EE1D258A1E3028AB /* Pods-DarylFirebase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DarylCrashLytics copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0F1CA431DC3BB2400991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09398C9E7132DDD5E394C648 /* Pods-DarylGoogleAnalytics.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DarylFirebase copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0F1CA441DC3BB2400991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB1EE85866BE3DCF84235E5 /* Pods-DarylGoogleAnalytics.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DarylFirebase copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A0F1CA511DC3BB3100991F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1F265C3EBE416BFFBD9070 /* Pods-DarylDito.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dito",
+				);
+				INFOPLIST_FILE = "DarylGoogleAnalytics copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0F1CA521DC3BB3100991F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A1E7963711EE51B1F2ACEE /* Pods-DarylDito.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NERN369JLD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dito",
+				);
+				INFOPLIST_FILE = "DarylGoogleAnalytics copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appprova.Daryl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F1C9FD1DC3BA9100991F48 /* Build configuration list for PBXProject "Daryl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA151DC3BA9100991F48 /* Debug */,
+				A0F1CA161DC3BA9100991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F1CA171DC3BA9100991F48 /* Build configuration list for PBXNativeTarget "Daryl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA181DC3BA9100991F48 /* Debug */,
+				A0F1CA191DC3BA9100991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F1CA1A1DC3BA9100991F48 /* Build configuration list for PBXNativeTarget "DarylTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA1B1DC3BA9100991F48 /* Debug */,
+				A0F1CA1C1DC3BA9100991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F1CA261DC3BB0300991F48 /* Build configuration list for PBXNativeTarget "DarylCrashLytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA271DC3BB0300991F48 /* Debug */,
+				A0F1CA281DC3BB0300991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F1CA341DC3BB1700991F48 /* Build configuration list for PBXNativeTarget "DarylFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA351DC3BB1700991F48 /* Debug */,
+				A0F1CA361DC3BB1700991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F1CA421DC3BB2400991F48 /* Build configuration list for PBXNativeTarget "DarylGoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA431DC3BB2400991F48 /* Debug */,
+				A0F1CA441DC3BB2400991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F1CA501DC3BB3100991F48 /* Build configuration list for PBXNativeTarget "DarylDito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F1CA511DC3BB3100991F48 /* Debug */,
+				A0F1CA521DC3BB3100991F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F1C9FA1DC3BA9100991F48 /* Project object */;
+}

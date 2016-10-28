@@ -1,0 +1,6 @@
+framework module Pods_DarylGoogleAnalytics {
+  umbrella header "Pods-DarylGoogleAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
